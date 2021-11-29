@@ -1,0 +1,523 @@
+.pad{
+	padding-right: .5rem!important;
+	padding-bottom: 0!important;
+	display: block;
+}
+
+.title-content {
+    width: 100%;
+    position: relative;
+}
+
+.title-content h3 {
+    color: #52527c;
+    font-size: 1rem;
+    font-weight: 600;
+    
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: inherit;
+    line-height: 1.2;
+}
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.card{
+	border: 1px solid rgba(132, 128, 128, 0.125);
+	position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.p{
+	padding-left: .5rem!important;
+	padding-right: .5rem!important;
+	padding-top: .5rem!important;
+	padding-bottom: 0!important;
+	margin-top: .5rem!important;
+
+}
+
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.form-inline .custom-select, .form-inline .input-group {
+    width: auto;
+}
+.m{
+	margin-right: .5rem!important;
+	margin-left: .5rem!important;
+	margin-bottom: .5rem!important;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+input{
+	    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    overflow: visible;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col{
+	padding-left: 0;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    clear: both;
+    margin-top: 6px !important;
+    margin-bottom: 6px !important;
+    max-width: none !important;
+    border-collapse: separate !important;
+    border-spacing: 0;
+    display: table;
+    border-color: grey;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.table  th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    padding: 7px;
+    border-top: 1px solid #dee2e6;
+
+}
+th {
+    text-align: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table td  {
+    padding : 7px;
+
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.btn-edit {
+    border-radius: .2rem;
+    background-color: #278dd6;
+    border-color: #278dd6;
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+.list-pelatihan{
+    width: 100%;
+    position: relative;
+}
+.row-half{
+    margin-top: 1rem!important;
+    margin-right: 1rem!important;
+}
+.col-md{
+    padding-left: 10px;
+    padding-right: 30px;
+    position: relative;
+    width: auto;
+}
+.pelatihan{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: .625rem;
+    width: 350px;
+}
+.pelatihan1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: .625rem;
+    width: 350px;
+}
+.pelatihan2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: .625rem;
+    height: 201px;
+    width: 500px;
+    }
+.pelatihan-cover{
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 200px;
+    padding: .6rem;
+    border-radius: .2rem;
+    overflow: hidden;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: .8rem;
+        background: url(assets/img/bg.png) no-repeat center center;
+    background-size: cover;
+}
+.title-pelatihan{
+    margin-top: 0;
+    margin-bottom: auto;
+    line-height: 1.2;
+    width: 100%;
+    position: relative;
+    z-index: 20;
+}
+
+.pelatihan-cover .title-pelatihan span {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.pelatihan-cover .gelombang {
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: 0;
+    width: 100%;
+    position: relative;
+    z-index: 20;
+}
+.pelatihan-periode{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: .8rem;
+}
+
+.pelatihan-periode > .date-label {
+    margin-bottom: .4em;
+    color: #888;
+    font-size: .8rem;
+    font-weight: 300;
+}
+.pelatihan.navy .pelatihan-cover::before {
+    background-color: rgba(27,64,102,0.9);
+}
+
+.pelatihan-cover::before {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    position: absolute;
+    content: "";
+}
+
+.pelatihan-cover .gelombang span {
+    color: #fff;
+    font-size: .85rem;
+    font-weight: 300;
+}
+.date-label > span {
+    color: #555;
+    font-size: medium;
+}
+.pelatihan-periode .date-label {
+    font-size: .8rem;
+    font-weight: 300;
+}
+.pelatihan-cover, .pelatihan-periode, .pelatihan-link {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    width: 100%;
+    position: relative;
+    margin-bottom: .8rem;
+}
+.pelatihan.navy .pelatihan-link a {
+    background-color: #1b4066;
+}
+.pelatihan-link a {
+    color: #fff;
+    font-size: .82rem;
+    padding: .35rem 1rem;
+    border-radius: .15rem;
+    background-color: transparent;
+    font-weight: 500;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.row-half>.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.pelatihan-detail{
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: .6rem 1rem;
+    background-color: #fff;
+    border-radius: .2rem;
+    border: 1px solid #eaeaea;
+}
+
+.text-mute{
+    color: #6c757d!important;
+}
+.text-biasa{
+    color: #000;
+}
+
+h1{
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin: 0 0 1rem;
+}
+
+.pelatihan-vertikal-desc {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: .6rem 1rem;
+    background-color: #fff;
+    border-radius: .2rem;
+    border: 1px solid #eaeaea;
+    position: relative;
+}
+.pelatihan-vertikal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.pelatihan-vertikal-desc .judul {
+    color: #262626;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.pelatihan-vertikal-desc .periode {
+    font-size: .9rem;
+    color: #444;
+    line-height: 1.2;
+}
+.pelatihan-vertikal-desc .judul, .pelatihan-vertikal-desc .periode, .pelatihan-vertikal-desc .description, .pelatihan-vertikal-desc .buttons, .pelatihan-vertikal-desc .status {
+    display: block;
+    margin-bottom: .2rem;
+}
+.pelatihan-vertikal-desc .status span {
+    display: inline-block;
+    padding: .1rem .5rem;
+    color: #fff;
+    font-size: .7rem;
+    font-weight: 500;
+    border-radius: .2rem;
+}
+.bg-danger {
+    background-color: #dc3545!important;
+        color: #fff;
+        display: inline-block;
+    padding: .1rem .5rem;
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: 500;
+    border-radius: .2rem;
+}
+.bg-mulai {
+    background-color: green;
+        color: #fff;
+        display: inline-block;
+    padding: .1rem .5rem;
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: 500;
+    border-radius: .2rem;
+}
+.bg-tunggu {
+    background-color: yellow;
+        color: #fff;
+        display: inline-block;
+    padding: .1rem .5rem;
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: 500;
+    border-radius: .2rem;
+}
+.bg-lolos {
+    background-color: blue;
+        color: #fff;
+        display: inline-block;
+    padding: .1rem .5rem;
+    color: #fff;
+    font-size: 1.0rem;
+    font-weight: 500;
+    border-radius: .2rem;
+}
+.pelatihan-vertikal-desc .description {
+    margin-top: .4rem;
+    font-size: .9rem;
+    color: #666666;
+    line-height: 1.3;
+}
